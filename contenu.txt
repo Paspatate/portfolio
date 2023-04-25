@@ -1,0 +1,9 @@
+Sae1.01 :
+Titre : 				                programmation et optimisation d’un algorithme qui détermine le sujet d’un article.
+compétence technique : 	        java, intelIJ, algorithmie
+compétence transversale :	      travail en collaboration, anglais, 
+présentation :
+
+Ce projet a été réalisé dans le cadre d’une situation d’apprentissage évalué qui s’appelle
+« Implémentation d’un besoin client et comparaison d’approche algorithmique ». Le but de ce projet a été de créé un algorithme qui,
+grâce a un dictionnaire de mot significatif, permet de déterminé le sujet d’une rapide dans les catégories : 
