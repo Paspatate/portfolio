@@ -1,0 +1,85 @@
+@font-face {
+    font-family: poppins;
+    src: url("./fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: poppins;
+    src: url("./fonts/Poppins/Poppins-SemiBold.ttf");
+    font-weight: bold;
+}
+
+body{
+    margin: 0px;
+    background-color: rgb(162, 115, 185);
+    font-family: poppins;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+header {
+    background-color: rgb(40, 44, 56);
+    border-radius: 20px;
+    box-shadow: black 0px 0px 12px;
+    margin: 10px;
+    height: 50px;
+    
+    position: sticky;
+}
+
+nav {
+    margin: 10px;
+    padding: 10px;
+        
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+nav a:first-of-type {
+    
+    margin-right: auto;
+}
+
+nav a{
+    color: azure;
+}
+
+.basic_layout{
+    border-radius: 15px;
+    box-shadow: black 0px 0px 7px;
+    margin: 0px 15%;
+    margin-bottom: 50px;
+    padding: 3em;
+}
+
+.presentation {
+    background-color: darkslateblue;
+    height: 75svh;
+    max-height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.presentation > div > div {
+    padding-left: 5%;
+}
+
+.tool {
+    background-color: darkcyan;
+
+}
+
+.tool details > summary {
+    cursor: pointer;
+    list-style: none;
+}
+
+.projet {
+    background-color: orchid;
+}
