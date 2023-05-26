@@ -83,3 +83,27 @@ nav a{
 .projet {
     background-color: orchid;
 }
+
+.projet .column {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+}
+
+.projet .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.projet .square{
+    background-color: darkorange;
+    padding: 30px;
+}
+
+.project > .column {
+    margin-right: auto;
+    margin-left: auto;
+}
