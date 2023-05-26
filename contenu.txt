@@ -1,9 +1,34 @@
 Sae1.01 :
-Titre : 				                programmation et optimisation d’un algorithme qui détermine le sujet d’un article.
+Titre : 				                programmation et optimisation d’un algorithme qui détèrmine du sujet d’un article.
 compétence technique : 	        java, intelIJ, algorithmie
 compétence transversale :	      travail en collaboration, anglais, 
 présentation :
 
 Ce projet a été réalisé dans le cadre d’une situation d’apprentissage évalué qui s’appelle
 « Implémentation d’un besoin client et comparaison d’approche algorithmique ». Le but de ce projet a été de créé un algorithme qui,
-grâce a un dictionnaire de mot significatif, permet de déterminé le sujet d’une rapide dans les catégories : 
+grâce a un dictionnaire de mot significatif, permet de déterminé le sujet d’un article dans les catégories : 
+- politique
+- sport 
+- science
+- économie
+- culture
+
+Les mots significatif sont choisie a l'aide de 500 autre article. 
+L'autre but de cette SAE est d'optimisé l'algorithme de détèrminaison de catégorie.
+Ce projet a été réalisé a deux en java pure dans intelIJ avec un compte rendu en anglais.
+
+
+Tricky-dungeon:
+Titre:                          Tricky-dungeon
+compétence technique:           python, vscode, pygame, POO, conception orienté objet, 
+compétence transversale:        collaboration, gestion de projet
+présentation:
+
+Ce projet a été réalisé dans le cadre de projet de fin d'année de Terminale dans la matière numérique est science informatique en 3 semaine a deux personne. 
+C'est un petit jeu d'exploration de donjon généré procéduralement avec des monstres dans chaque salle. Après avoir éliminé tous les monstres, il faut trouver la 
+bougie pour faire apparaitre le boss du donjon et passer au niveau suivant. Le projet a été entièrement réalisé en python en utilisant la bibliothèque graphique pygame.
+Mon rôle dans ce projet a été de faire l'algorithme de génération du donjon ansi que géré le rendu des éléments a l'écran.
+
+automate cellulaire des voisin de moore:
+Titre:                          automate cellulaire des voisin de moore
+compétence technique:           python, vscode, pygame, algorithmique
