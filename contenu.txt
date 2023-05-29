@@ -30,5 +30,5 @@ bougie pour faire apparaitre le boss du donjon et passer au niveau suivant. Le p
 Mon rôle dans ce projet a été de faire l'algorithme de génération du donjon ansi que géré le rendu des éléments a l'écran.
 
 automate cellulaire des voisin de moore:
-Titre:                          automate cellulaire des voisin de moore
+Titre:                          automate cellulaire des voisins de moore
 compétence technique:           python, vscode, pygame, algorithmique

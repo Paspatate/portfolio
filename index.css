@@ -1,0 +1,78 @@
+
+
+.presentation {
+    background-color: darkslateblue;
+    height: 75svh;
+    max-height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.presentation > div > div {
+    padding-left: 5%;
+}
+
+.tool {
+    background-color: darkcyan;
+
+}
+
+.tool details > summary {
+    cursor: pointer;
+    list-style: none;
+}
+
+.projet {
+    background-color: orchid;
+}
+
+.projet .column {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+}
+
+.projet .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.projet .square{
+    background-color: darkorange;
+    padding: 30px;
+    overflow: hidden;
+    height: 150px;
+    position:relative;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: darkorange;
+}
+
+.square:after{
+    content: "";
+    position: absolute; top: 0; bottom: 0; left: -10px; right: -10px;
+    box-shadow: inset darkorange 0 -10px 25px;
+}
+
+.lien_projet {
+    flex-basis: 30%;
+    flex-grow: 1;
+    color:black;
+    text-decoration: none;
+}
+
+.square:hover {
+    border-style: solid;
+    border-color: blue;
+    box-shadow: black 0 0 10px;
+}
+
+.project > .column {
+    margin-right: auto;
+    margin-left: auto;
+}

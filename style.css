@@ -48,62 +48,26 @@ nav a{
     color: azure;
 }
 
+footer {
+    background-color: #545484;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+footer a {
+    color: black;
+}
+
+footer p {
+    margin: 0px;
+    margin-bottom: 8px;
+}
+
 .basic_layout{
     border-radius: 15px;
     box-shadow: black 0px 0px 7px;
     margin: 0px 15%;
     margin-bottom: 50px;
     padding: 3em;
-}
-
-.presentation {
-    background-color: darkslateblue;
-    height: 75svh;
-    max-height: 500px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.presentation > div > div {
-    padding-left: 5%;
-}
-
-.tool {
-    background-color: darkcyan;
-
-}
-
-.tool details > summary {
-    cursor: pointer;
-    list-style: none;
-}
-
-.projet {
-    background-color: orchid;
-}
-
-.projet .column {
-    display: flex;
-    flex-direction: column;
-    
-    gap: 20px;
-}
-
-.projet .row{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.projet .square{
-    background-color: darkorange;
-    padding: 30px;
-}
-
-.project > .column {
-    margin-right: auto;
-    margin-left: auto;
 }

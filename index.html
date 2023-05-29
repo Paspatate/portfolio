@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <title>Romain Quincieu</title>
 </head>
 <body>
     <header>
         <nav>
-            <a href="#">
-                Acceuil
+            <a href="index.html">
+                Aceuil
             </a>
-            <a href="#">
-                Page 1
+            <a href="#tool">
+                Outils
             </a>
-            <a href="#">
-                Page 2
+            <a href="#projet">
+                Projets
             </a>
         </nav>
     </header>
@@ -30,7 +31,7 @@
         </section>
         
         
-        <section class="basic_layout tool">
+        <section class="basic_layout tool" id="tool">
             <h2>Les Outils que je sait utilisé</h2>
             <div>
                 <div>
@@ -43,44 +44,61 @@
         </section>
 
 
-        <section class="basic_layout projet">
+        <section class="basic_layout projet" id="projet">
             <h2>Mes Projets</h2>
             <div class="column">
                 <div class="row">
-                    <div class="square">
-                        <p>
-                            Exemple 1
-                        </p>
-                    </div>
-                    <div class="square">
-                        <p>
-                            Exemple 2
-                        </p>
-                    </div>
-                    
-
+                    <a class="lien_projet" href="projet/tricky-dungeon.html">
+                        <div class="square">
+                            <h3>Tricky dungeon</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, cum. Ut ipsam tempore, rem earum quis eos ullam sunt saepe consectetur consequatur iste ex aspernatur quisquam voluptate! Asperiores, eum quas?
+                            </p>
+                        </div>
+                    </a>
+                    <a class="lien_projet" href="projet/sae1_1.html">
+                        <div class="square">
+                            <h3>Programmation et optimisation d’un algorithme qui détèrmine du sujet d’un article</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perferendis cupiditate, vero eos praesentium incidunt molestias dolorum, nisi eligendi ullam neque vel minima voluptate enim. Quibusdam tempore fuga laudantium facere!
+                            </p>
+                        </div>
+                    </a>
+                    <a class="lien_projet" href="projet/voisin_de_moore.html">
+                        <div class="square">
+                            <h3>Automate cellulaire des voisin de Moore</h3>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime officiis assumenda temporibus alias deserunt magnam sequi vel obcaecati sint unde repellat optio quae quo repudiandae laudantium doloremque ut, earum culpa?
+                            </p>
+                        </div>
+                    </a>
                 </div>
                 <div class="row">
-                    <div class="square">
-                        <p>
-                            Exemple 3
-                        </p>
-                    </div>
-                    <div class="square">
-                        <p>
-                            Exemple 5
-                        </p>
-                    </div>
-
-                    <div class="square">
-                        <p>
-                            Exemple 4
-                        </p>
-                    </div>
-
+                    <a class="lien_projet" href="projet/template.html">
+                        <div class="square">
+                            <p>
+                                Exemple 5
+                            </p>
+                        </div>
+                    </a>
+                    <a class="lien_projet" href="projet/template.html">
+                        <div class="square">
+                            <p>
+                                Exemple 4
+                            </p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </section>
     </main>
+    <footer>
+        <!--crédit, Lien vers github, mail discord-->
+        <div>
+            <p><a href="https://www.github.com/paspatate">Github : Paspatate</a></p>
+            <p><a href="mailto:romain.quincieu@etu.univ-grenoble-alpes.fr"> Mail : romain.quincieu@etu.univ-grenoble-alpes.fr</a></p>
+            <p>Discord : PasPatate#9310</p>
+        </div>
+    </footer>
 </body>
 </html>
