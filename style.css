@@ -11,7 +11,7 @@
 
 body{
     margin: 0px;
-    background-color: rgb(162, 115, 185);
+    background-color: #E3CAD2;
     font-family: poppins;
 }
 
@@ -45,18 +45,19 @@ nav a:first-of-type {
 }
 
 nav a{
-    color: azure;
+    color: #F5EDF0;
 }
 
 footer {
-    background-color: #545484;
+    background-color: rgb(40, 44, 56);
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
+    color: #F5EDF0;
 }
 
 footer a {
-    color: black;
+    color: #F5EDF0;
 }
 
 footer p {

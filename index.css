@@ -1,7 +1,7 @@
 
 
 .presentation {
-    background-color: darkslateblue;
+    background-color: #508484;
     height: 75svh;
     max-height: 500px;
 
@@ -15,7 +15,7 @@
 }
 
 .tool {
-    background-color: darkcyan;
+    background-color: #508484;
 
 }
 
@@ -25,7 +25,7 @@
 }
 
 .projet {
-    background-color: orchid;
+    background-color: #508484;
 }
 
 .projet .column {
@@ -43,20 +43,20 @@
 }
 
 .projet .square{
-    background-color: darkorange;
+    background-color: #E57A44;
     padding: 30px;
     overflow: hidden;
     height: 150px;
     position:relative;
     border-radius: 10px;
     border-style: solid;
-    border-color: darkorange;
+    border-color: #E57A44;
 }
 
 .square:after{
     content: "";
     position: absolute; top: 0; bottom: 0; left: -10px; right: -10px;
-    box-shadow: inset darkorange 0 -10px 25px;
+    box-shadow: inset #E57A44 0 -10px 25px;
 }
 
 .lien_projet {
@@ -68,7 +68,7 @@
 
 .square:hover {
     border-style: solid;
-    border-color: blue;
+    border-color: #E57A44;
     box-shadow: black 0 0 10px;
 }
 
