@@ -1,7 +1,7 @@
 Sae1.01 :
-Titre : 				                programmation et optimisation d’un algorithme qui détèrmine du sujet d’un article.
-compétence technique : 	        java, intelIJ, algorithmie
-compétence transversale :	      travail en collaboration, anglais, 
+Titre : 				        programmation et optimisation d’un algorithme qui détèrmine du sujet d’un article.
+compétence technique :          java, intelIJ, algorithmie
+compétence transversale :       travail en collaboration, anglais, 
 présentation :
 
 Ce projet a été réalisé dans le cadre d’une situation d’apprentissage évalué qui s’appelle
@@ -29,6 +29,25 @@ C'est un petit jeu d'exploration de donjon généré procéduralement avec des m
 bougie pour faire apparaitre le boss du donjon et passer au niveau suivant. Le projet a été entièrement réalisé en python en utilisant la bibliothèque graphique pygame.
 Mon rôle dans ce projet a été de faire l'algorithme de génération du donjon ansi que géré le rendu des éléments a l'écran.
 
+
 automate cellulaire des voisin de moore:
 Titre:                          automate cellulaire des voisins de moore
-compétence technique:           python, vscode, pygame, algorithmique
+compétence technique:           python, vscode, pygame, algorithmie 
+compétence transversale:        recherche
+présentation:
+
+Ce projet est une implémentation d'un automate céllulaire, algorithme ou on utilise des céllules qui intéragisse entre elle en fonction de leurs voisins et de règles.
+Le but de ce projet a été de découvrire les automates céllulaire pour la création de terrain pour un jeu. Ce projet a été réalisé en python en utilisant la librairie graphique
+pygame et a été réalisé au début de l'année 2022 en une après-midi comme expérimentation. 
+
+
+Sae2.04
+Titre:                          Exploitation d'une base de donnée
+compétence technique:           PostgresSQL, R, tidyverse
+compétence transversale:        anglais, collaboration, gestion de projet
+présentation: 
+
+Le but de ce projet était de créé un rapport en anglais pour faire de la sensibilisation sur les accidents dans une zone en France d'une certaine population.
+Il a donc fallu extraire les données importante pour le projet d'une base de donnée en open-data qui ressence les accidents de tous type dans toute la France,
+néttoyer les donnés et les analysés avec des statistiques faite dans le language R en utilisant la bibliothèque statistique tidyverse.
+Ce projet a été réalisé a deux pendant une situation d'apprentissage évalué du deuxième semestre du bacchelore universitaire technologique d'informatique.
