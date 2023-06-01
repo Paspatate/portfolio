@@ -50,4 +50,4 @@ présentation:
 Le but de ce projet était de créé un rapport en anglais pour faire de la sensibilisation sur les accidents dans une zone en France d'une certaine population.
 Il a donc fallu extraire les données importante pour le projet d'une base de donnée en open-data qui ressence les accidents de tous type dans toute la France,
 néttoyer les donnés et les analysés avec des statistiques faite dans le language R en utilisant la bibliothèque statistique tidyverse.
-Ce projet a été réalisé a deux pendant une situation d'apprentissage évalué du deuxième semestre du bacchelore universitaire technologique d'informatique.
+Ce projet a été réalisé a deux pendant une situation d'apprentissage évalué du deuxième semestre du bachelore universitaire technologique d'informatique.
