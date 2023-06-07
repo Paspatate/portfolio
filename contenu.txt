@@ -51,3 +51,15 @@ Le but de ce projet était de créé un rapport en anglais pour faire de la sens
 Il a donc fallu extraire les données importante pour le projet d'une base de donnée en open-data qui ressence les accidents de tous type dans toute la France,
 néttoyer les donnés et les analysés avec des statistiques faite dans le language R en utilisant la bibliothèque statistique tidyverse.
 Ce projet a été réalisé a deux pendant une situation d'apprentissage évalué du deuxième semestre du bachelore universitaire technologique d'informatique.
+
+
+Sae2.03
+Titre:                          Instalation d'un service réseau
+compétence technique:           Linux, SQL, Apache
+compétence transversale:        anglais, recherche
+présentation:
+
+Pendant cette situation d'apprentissage évalué, il a falue installé Debian Bullseye sur une machine virtuelle dans le but d'une utilisation comme serveur web/base de donnée.
+Après l'installation du système, il a fallue installer et configurer Apache pour ajouter PHP et un outils de gestion de base de donnés (phpPgAdmin). 
+A la suite de cela il a aussi fallu installer et configurer PostgresSQL pour accépté des connections exterieurs, créé des utilisateurs, créé une base de donnée,...
+Le rendu de ce projet était un document en anglais expliquant comment faire ce type d'installation.  
