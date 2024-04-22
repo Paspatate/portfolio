@@ -1,10 +1,9 @@
 :root {
-    --accent-color: #426565;
-    --orange: #E57A44;
+    --accent-color: #8fafaf;
+    --orange: #e57a44;
 }
 
 .presentation {
-    background-color: var(--elem-color);
     height: 75svh;
     max-height: 500px;
 
@@ -20,7 +19,6 @@
 
 .tool {
     background-color: #508484;
-
 }
 
 .tool details > summary {
@@ -28,55 +26,80 @@
     list-style: none;
 }
 
-.projet {
-    background-color: var(--elem-color);
-}
-
 .projet .column {
     display: flex;
     flex-direction: column;
-    
+
     gap: 20px;
 }
 
-.projet .row{
+.projet .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
 }
 
-.projet .square{
-    background-color: var(--accent-color);
+.projet .square {
+    background-color: var(--nav-color);
     padding: 30px;
     overflow: hidden;
     height: 150px;
-    position:relative;
+    position: relative;
     border-radius: 10px;
     border-style: solid;
-    border-color: var(--accent-color);
+    border-color: var(--elem-color);
 }
 
-.square:after{
+.square:after {
     content: "";
-    position: absolute; top: 0; bottom: 0; left: -10px; right: -10px;
-    box-shadow: inset var(--accent-color) 0 -10px 25px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -10px;
+    right: -10px;
+    box-shadow: inset var(--nav-color) 0 -15px 25px;
 }
 
 .lien_projet {
     flex-basis: 30%;
     flex-grow: 1;
-    color:black;
+    color: var(--light-text-color);
     text-decoration: none;
 }
 
 .square:hover {
     border-style: solid;
     border-color: var(--accent-color);
-    box-shadow: black 0 0 10px;
+    box-shadow: var(--accent-color) 0 0 5px;
 }
 
 .project > .column {
     margin-right: auto;
     margin-left: auto;
+}
+
+.pill {
+    background-color: #F57700;
+    position: relative;
+    height: 10px;
+    border-radius: 40px;
+}
+
+.layer1 {
+    background-color: #8DFA00;
+    position:absolute;
+    height: 100%;
+    border-radius: 40px;
+    width: 70%;
+    right:0;
+}
+
+.layer2 {
+    background-color: #C800F5;
+    position: absolute;
+    height: 100%;
+    border-radius: 40px;
+    width:45%;
+    right: 0;
 }
