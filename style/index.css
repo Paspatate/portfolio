@@ -1,7 +1,10 @@
-
+:root {
+    --accent-color: #426565;
+    --orange: #E57A44;
+}
 
 .presentation {
-    background-color: #508484;
+    background-color: var(--elem-color);
     height: 75svh;
     max-height: 500px;
 
@@ -26,7 +29,7 @@
 }
 
 .projet {
-    background-color: #508484;
+    background-color: var(--elem-color);
 }
 
 .projet .column {
@@ -44,20 +47,20 @@
 }
 
 .projet .square{
-    background-color: #E57A44;
+    background-color: var(--accent-color);
     padding: 30px;
     overflow: hidden;
     height: 150px;
     position:relative;
     border-radius: 10px;
     border-style: solid;
-    border-color: #E57A44;
+    border-color: var(--accent-color);
 }
 
 .square:after{
     content: "";
     position: absolute; top: 0; bottom: 0; left: -10px; right: -10px;
-    box-shadow: inset #E57A44 0 -10px 25px;
+    box-shadow: inset var(--accent-color) 0 -10px 25px;
 }
 
 .lien_projet {
@@ -69,7 +72,7 @@
 
 .square:hover {
     border-style: solid;
-    border-color: #E57A44;
+    border-color: var(--accent-color);
     box-shadow: black 0 0 10px;
 }
 

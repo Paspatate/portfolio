@@ -1,3 +1,10 @@
+:root {
+    --nav-color: rgb(40, 44, 56);
+    --light-text-color: #F5EDF0;
+    --elem-color: #508484;
+    --background-color: #E3CAD2;
+}
+
 @font-face {
     font-family: poppins;
     src: url("../res/fonts/Poppins/Poppins-Regular.ttf");
@@ -11,7 +18,7 @@
 
 body{
     margin: 0px;
-    background-color: #E3CAD2;
+    background-color: var(--background-color);
     font-family: poppins;
 }
 
@@ -21,14 +28,15 @@ h1 {
 }
 
 header {
-    background-color: rgb(40, 44, 56);
-    border-radius: 20px;
+    background-color: var(--nav-color);
+    border-radius: 5px;
     box-shadow: black 0px 0px 12px;
-    margin: 10px;
+    margin: 5px;
+    margin-bottom: 10px;
     height: 50px;
-    
+    top: 5px;
+
     position: sticky;
-    top: 10px;
     z-index: 10;
 }
 
@@ -48,19 +56,19 @@ nav a:first-of-type {
 }
 
 nav a{
-    color: #F5EDF0;
+    color: var(--light-text-color);
 }
 
 footer {
-    background-color: rgb(40, 44, 56);
+    background-color: var(--nav-color);
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
-    color: #F5EDF0;
+    color: var(--light-text-color);
 }
 
 footer a {
-    color: #F5EDF0;
+    color: var(--light-text-color);
 }
 
 footer p {
