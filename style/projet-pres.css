@@ -1,13 +1,13 @@
-.basic_layout {
-    background-color: #719696;
-}
-
 .basic_layout a {
     color: #F5EDF0;
     background-color: rgb(40, 44, 56);
     padding: 10px;
     border-radius: 10px;
     box-shadow: black 0 0 5px;
+}
+
+.basic_layout a:hover {
+    box-shadow: var(--accent-color) 0 0 5px;
 }
 
 img {
