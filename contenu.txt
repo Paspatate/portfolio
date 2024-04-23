@@ -63,3 +63,27 @@ Pendant cette situation d'apprentissage évalué, il a falue installé Debian Bu
 Après l'installation du système, il a fallue installer et configurer Apache pour ajouter PHP et un outils de gestion de base de donnés (phpPgAdmin). 
 A la suite de cela il a aussi fallu installer et configurer PostgresSQL pour accépté des connections exterieurs, créé des utilisateurs, créé une base de donnée,...
 Le rendu de ce projet était un document en anglais expliquant comment faire ce type d'installation.  
+
+Mega SAE3
+Titre:                          Conception et dévellopement d'un jeu ludo-éducatif
+competence technique:           PHP, JS, SQL, Git, Phaser
+compétence transversale:        travail en équipe
+presentation: 
+
+groupe de 7 personnes
+conception d'un site contenant un jeu ludoéducatif
+realisation en 3 semaine, php seul, moteur de jeu Phaser
+systeme d'authentification
+systeme de communication entre utilisateurs
+jeu avec sauvegarde de l'avencement en base de donnée
+
+
+Moteur 3D
+Titre:                          Moteur 3D dans un Terminal
+competence technique:           rust, maths
+compétence transversale:        recherche
+presentation: 
+
+Le but de ce projet a été de comprendre comment fonctionne le rendu 3D au plus bas niveau, c'est a dire d'implémenté l'algorithme de Bresenham pour le tracage de ligne ainsi
+que les maths pour réalisé la prection de point en 3 dimension sur un plan en 2 dimensio. Ce projet ma permie de commencé l'apprentissage du rust. Par soucit de simplicité 
+pour l'affichage j'ai décidé de réalisé l'affichage dans un terminal. 
