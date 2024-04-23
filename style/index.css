@@ -48,6 +48,7 @@
     position: relative;
     border-radius: 10px;
     border-style: solid;
+    border-width: 2px;
     border-color: var(--elem-color);
 }
 
@@ -79,6 +80,15 @@
     margin-left: auto;
 }
 
+@keyframes growing {
+    from {
+        width: 25%;
+    }
+    to {
+        width: 70%;
+    }
+}
+
 .pill {
     background-color: #F57700;
     position: relative;
@@ -93,6 +103,13 @@
     border-radius: 40px;
     width: 70%;
     right:0;
+    
+    animation-duration: 7s;
+    animation-name: growing;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 2s;
 }
 
 .layer2 {
@@ -102,4 +119,10 @@
     border-radius: 40px;
     width:45%;
     right: 0;
+
+    animation-duration: 5s;
+    animation-name: growing;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
 }
