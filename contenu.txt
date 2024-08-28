@@ -77,6 +77,12 @@ systeme d'authentification
 systeme de communication entre utilisateurs
 jeu avec sauvegarde de l'avencement en base de donnée
 
+Ce projet a été réalisé a 7 dont 2 personne concentré sur l'administration et 5 autre personne, dont moi-même, sur le développement du projet.
+Le sujet était de créé un site web permetant a des lycéens d'apprendre l'histoire de la méditerranée pendant l'antiquité. Le temps de réalisation a été de 3 semaines. 
+Nous avons utilisé du PHP pour le back-end et, pour le développement du jeu, JavaScript en utilisant le moteur de jeu Phaser.
+
+Nous avons développé, en autre, un système d'authentification pour les utilisateurs, un système de messagerie entre les utilisateurs ainsi qu'une sauvegarde de l'avancement dans le jeu pour les utilisateur.
+
 
 Moteur 3D
 Titre:                          Moteur 3D dans un Terminal
