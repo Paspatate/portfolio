@@ -31,12 +31,14 @@ const frag_shader =
 #define BRIGHT_PURPLE vec3(200.0/255.0, 0.0, 245.0/255.0)
 #define BRIGHT_ORANGE vec3(141.0/255.0, 250.0/255.0, 0.0)
 #define BACKGROUND vec3(40.0/255.0, 44.0/255.0, 56.0/255.0)
+
+#define NUM_CIRCLE 10
 precision highp float;
 
 out vec4 f_color;
 
 uniform mat4 scaling_ratio;
-uniform vec4[3] u_positions;
+uniform vec4[NUM_CIRCLE] u_positions;
 
 float smin( float a, float b, float k )
 {
@@ -50,19 +52,19 @@ float sdfCircle(vec2 frag_coord, vec2 center, float radius) {
 }
 
 float sdfScene(vec2 frag_coord) {
-    vec4 points[] = u_positions;
-    for (int i = 0; i < 3; i++) {
+    vec4 points[NUM_CIRCLE] = u_positions;
+    for (int i = 0; i < NUM_CIRCLE; i++) {
         points[i] *= scaling_ratio;
     }
     
-    float sdfObject[3];
+    float sdfObject[NUM_CIRCLE];
 
-    for (int i = 0; i < 3; i++) {
+    for (int i = 0; i < NUM_CIRCLE; i++) {
         sdfObject[i] = sdfCircle(frag_coord, points[i].xy, 50.0);
     }
 
     float choosed_sdf = sdfObject[0];
-    for (int i = 0; i < 3; i++) {
+    for (int i = 0; i < NUM_CIRCLE; i++) {
         choosed_sdf = smin(choosed_sdf, sdfObject[i], 70.0);
     }
 
@@ -110,11 +112,15 @@ gl.bufferData(gl.ARRAY_BUFFER, square_float, gl.STATIC_DRAW)
 gl.enableVertexAttribArray(position_loc)
 gl.vertexAttribPointer(position_loc, 2, gl.FLOAT, false, 0, 0);
 
-let points = [new Point(), new Point(), new Point()]
+let points = []
 let start_time;
 
 function start() {
     gl.clearColor(0.1, 0.1, 0.1, 1.0)
+
+    for (let i = 0; i < 10; i++) {
+        points.push(new Point())
+    }
 
     requestAnimationFrame(frame)
 }
