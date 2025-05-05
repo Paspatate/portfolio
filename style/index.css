@@ -129,3 +129,10 @@
     animation-timing-function: ease-in-out;
     animation-direction: alternate;
 }
+
+#frame {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
