@@ -82,12 +82,11 @@ footer p {
 
 .basic_layout {
     border-radius: 5px;
-    box-shadow: var(--elem-color) 0px 0px 3px inset;
     border-color: var(--elem-color);
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     background-color: var(--nav-color);
-    margin: 0px 15%;
+    margin: 0px 5%;
     margin-bottom: 50px;
     padding: 3em;
 }

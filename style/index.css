@@ -17,13 +17,16 @@
     padding-right: 5%;
 }
 
-.tool {
-    background-color: #508484;
+.tool > .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.tool details > summary {
-    cursor: pointer;
-    list-style: none;
+.tool > .grid > div {
+    text-align: center;
 }
 
 .projet .column {
