@@ -4,6 +4,7 @@ import { Point } from "./point.js";
 
 const canvas = document.querySelector("#frame")
 
+
 if (canvas === null) {
     console.error("Can't find canvas");
 }
@@ -13,6 +14,12 @@ const gl = canvas.getContext("webgl2")
 if (gl === null) {
     console.error("WebGL2 not supported")
 }
+
+window.addEventListener("load", (ev) => {
+    canvas.width = window.outerWidth
+    canvas.height = window.outerHeight
+    gl.viewport(0, 0, window.outerWidth, window.outerHeight)
+})
 
 const vertex_shader = 
 `#version 300 es
@@ -32,7 +39,7 @@ const frag_shader =
 #define BRIGHT_ORANGE vec3(141.0/255.0, 250.0/255.0, 0.0)
 #define BACKGROUND vec3(40.0/255.0, 44.0/255.0, 56.0/255.0)
 
-#define NUM_CIRCLE 10
+#define NUM_CIRCLE 3
 precision highp float;
 
 out vec4 f_color;
