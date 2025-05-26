@@ -46,16 +46,21 @@
 .projet .square {
     background-color: var(--nav-color);
     padding: 30px;
-    overflow: hidden;
-    height: 150px;
-    position: relative;
+    /* overflow: hidden; */
+    /* position: relative; */
     border-radius: 10px;
     border-style: solid;
     border-width: 2px;
     border-color: var(--elem-color);
+    font-size: small;
+
+    flex-basis: 30%;
+    flex-grow: 1;
+    color: var(--light-text-color);
+    text-decoration: none;
 }
 
-.square:after {
+/* .square:after {
     content: "";
     position: absolute;
     top: 0;
@@ -63,19 +68,44 @@
     left: -10px;
     right: -10px;
     box-shadow: inset var(--nav-color) 0 -15px 25px;
+} */
+
+.square::before {
+    content: url("../res/img/index/folder-regular.svg");
+    display: block;
+    width: 30px;
 }
 
 .lien_projet {
-    flex-basis: 30%;
-    flex-grow: 1;
-    color: var(--light-text-color);
-    text-decoration: none;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 100px;
+    border-width: 2px;
+    border-color: var(--elem-color);
+    width: fit-content;
+    background-color: var(--accent-color);
 }
 
-.square:hover {
+.lien_projet:hover {
     border-style: solid;
     border-color: var(--accent-color);
     box-shadow: var(--accent-color) 0 0 5px;
+}
+
+.lien_projet > a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin: 5px;
+}
+
+.lien_projet > a > span {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.lien_projet > a > img {
+    vertical-align: middle;
 }
 
 .project > .column {
