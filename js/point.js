@@ -1,3 +1,9 @@
+function init_speed() {
+    let random_amount = (Math.random() * 2) - 1;
+    let scaling = 0.1;
+    return random_amount * scaling;
+}
+
 const canvas = document.querySelector("#frame")
 
 export class Point {
@@ -16,11 +22,11 @@ export class Point {
     // }
 
     constructor() {
-        this.x = Math.random()*canvas.clientWidth;
-        this.y = Math.random()*canvas.clientHeight;
+        this.x = Math.random() * canvas.clientWidth;
+        this.y = Math.random() * canvas.clientHeight;
 
-        this.vx = (Math.random() * 1) - 0.5;
-        this.vy = (Math.random() * 1) - 0.5;
+        this.vx = init_speed();
+        this.vy = init_speed();
     }
 
     update(dt) {
