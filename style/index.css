@@ -16,12 +16,79 @@ h3 {
     justify-content: center;
 }
 
-.presentation > div > div {
+.presentation>div>div {
     padding-left: 5%;
     padding-right: 5%;
 }
 
-.tool > .grid {
+.language-skill p {
+    margin: 0px;
+    margin-left: 20px;
+}
+
+.language-skill > div {
+    margin-top: 20px;
+}
+
+.language-skill img {
+    width: 50px;
+}
+
+.language-skill .python,
+.rust,
+.cpp,
+.php,
+.javascript,
+.java {
+    width: 80%;
+    height: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.language-skill .python>div {
+    width: 80%;
+    height: 100%;
+    border-radius: 50px;
+    background-color: #f9e2af;
+}
+
+.language-skill .rust>div {
+    width: 75%;
+    height: 100%;
+    border-radius: 50px;
+    background-color: #eba0ac;
+}
+
+.language-skill .cpp>div {
+    width: 45%;
+    height: 100%;
+    border-radius: 50px;
+    background-color: #89b4fa;
+}
+
+.language-skill .php>div {
+    width: 60%;
+    height: 100%;
+    border-radius: 50px;
+    background-color: #b4befe;
+}
+
+.language-skill .javascript>div {
+    width: 65%;
+    height: 100%;
+    border-radius: 50px;
+    background-color: #f5e0dc;
+}
+
+.language-skill .java>div {
+    width: 70%;
+    height: 100%;
+    border-radius: 50px;
+    background-color: #f38ba8;
+}
+
+#tool>.grid {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -29,7 +96,7 @@ h3 {
     justify-content: space-around;
 }
 
-.tool > .grid > div {
+#tool>.grid>div {
     text-align: center;
 }
 
@@ -96,80 +163,33 @@ h3 {
     box-shadow: var(--accent-color) 0 0 5px;
 }
 
-.lien_projet > a {
+.lien_projet>a {
     color: black;
     text-decoration: none;
     text-align: center;
     margin: 5px;
 }
 
-.lien_projet > a > span {
+.lien_projet>a>span {
     vertical-align: middle;
     margin-right: 5px;
 }
 
-.lien_projet > a > img {
+.lien_projet>a>img {
     vertical-align: middle;
 }
 
-.project > .column {
+.project>.column {
     margin-right: auto;
     margin-left: auto;
 }
 
-.lang-presentation {
+.projet .lang-presentation {
     list-style: none;
     display: flex;
     flex-direction: row;
     gap: 10px;
     padding-left: 10px;
-}
-
-@keyframes growing {
-    from {
-        width: 25%;
-    }
-    to {
-        width: 70%;
-    }
-}
-
-.pill {
-    background-color: #F57700;
-    position: relative;
-    height: 10px;
-    border-radius: 40px;
-}
-
-.layer1 {
-    background-color: #8DFA00;
-    position:absolute;
-    height: 100%;
-    border-radius: 40px;
-    width: 70%;
-    right:0;
-    
-    animation-duration: 7s;
-    animation-name: growing;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-delay: 2s;
-}
-
-.layer2 {
-    background-color: #C800F5;
-    position: absolute;
-    height: 100%;
-    border-radius: 40px;
-    width:45%;
-    right: 0;
-
-    animation-duration: 5s;
-    animation-name: growing;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    animation-direction: alternate;
 }
 
 #frame {
