@@ -1,3 +1,5 @@
+const canvas = document.querySelector("#frame")
+
 export class Point {
     x;
     y;
@@ -14,8 +16,8 @@ export class Point {
     // }
 
     constructor() {
-        this.x = Math.random()*1920;
-        this.y = Math.random()*1080;
+        this.x = Math.random()*canvas.clientWidth;
+        this.y = Math.random()*canvas.clientHeight;
 
         this.vx = (Math.random() * 1) - 0.5;
         this.vy = (Math.random() * 1) - 0.5;

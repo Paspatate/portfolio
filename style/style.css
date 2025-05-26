@@ -30,6 +30,15 @@ h1 {
     font-weight: bold;
 }
 
+h2 {
+    font-size: xx-large;
+}
+
+h3 {
+    font-weight: bolder;
+    font-size: x-large;
+}
+
 header {
     background-color: var(--nav-color);
     border-radius: 5px;
