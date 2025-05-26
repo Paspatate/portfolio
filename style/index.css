@@ -3,6 +3,10 @@
     --orange: #e57a44;
 }
 
+h3 {
+    margin-bottom: 30px;
+}
+
 .presentation {
     height: 75svh;
     max-height: 500px;
@@ -111,6 +115,14 @@
 .project > .column {
     margin-right: auto;
     margin-left: auto;
+}
+
+.lang-presentation {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-left: 10px;
 }
 
 @keyframes growing {
