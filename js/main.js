@@ -2,6 +2,17 @@ import { create_shader_program } from "./load_shader.js";
 import { mat_scale } from "./matrix.js";
 import { Point } from "./point.js";
 
+let run = true
+
+const toggle_anim_button = document.querySelector("#stop-anim")
+
+toggle_anim_button.addEventListener("click", (e) => {
+    run = !run;
+    if (run) {
+        start();
+    }
+})
+
 const canvas = document.querySelector("#frame")
 
 
@@ -39,7 +50,7 @@ const frag_shader =
 #define BRIGHT_ORANGE vec3(141.0/255.0, 250.0/255.0, 0.0)
 #define BACKGROUND vec3(40.0/255.0, 44.0/255.0, 56.0/255.0)
 
-#define NUM_CIRCLE 3
+#define NUM_CIRCLE 5
 precision highp float;
 
 out vec4 f_color;
@@ -168,7 +179,10 @@ function frame(timestamp) {
     update(delta_time)
     draw()
     start_time = timestamp;
-    requestAnimationFrame(frame)
+
+    if (run) {
+        requestAnimationFrame(frame)
+    }
 }
 
 start()

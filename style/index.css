@@ -100,14 +100,14 @@ h3 {
     text-align: center;
 }
 
-.projet .column {
+.projet .row {
     display: flex;
     flex-direction: column;
 
     gap: 20px;
 }
 
-.projet .row {
+.projet .column {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -190,6 +190,20 @@ h3 {
     flex-direction: row;
     gap: 10px;
     padding-left: 10px;
+}
+
+#stop-anim {
+    color: black;
+    padding: 10px;
+}
+
+.projet .date h4 {
+    margin-bottom: 0;
+}
+
+.projet .date span {
+    margin: 0;
+    color: lightgray;
 }
 
 #frame {
