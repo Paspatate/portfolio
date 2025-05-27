@@ -193,8 +193,22 @@ h3 {
 }
 
 #stop-anim {
-    color: black;
+    position: fixed;
+    bottom: 1.5%;
+    left: 1%;
     padding: 10px;
+    border-style: solid;
+    border-radius: 100px;
+    border-width: 2px;
+    border-color: var(--elem-color);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: var(--accent-color);
+}
+
+#stop-anim > img {
+    vertical-align: middle;
 }
 
 .projet .date h4 {
