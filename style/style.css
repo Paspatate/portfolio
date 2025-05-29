@@ -1,5 +1,6 @@
 :root {
-    --nav-color: rgb(40, 44, 56);
+    --nav-color: #181825;
+    /* --nav-color: rgb(40, 44, 56); */
     --light-text-color: #f5edf0;
     --elem-color: #508484;
     --background-color: #e3cad2;
@@ -92,7 +93,7 @@ footer p {
 .basic_layout {
     border-radius: 5px;
     border-color: var(--elem-color);
-    border-style: solid;
+    /* border-style: solid; */
     border-width: 1px;
     background-color: var(--nav-color);
     margin: 0px 5%;
