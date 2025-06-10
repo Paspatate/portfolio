@@ -115,7 +115,7 @@ h3 {
 }
 
 .projet .square {
-    background-color: var(--nav-color);
+    background-color: var(--overview-color);
     padding: 30px;
     /* overflow: hidden; */
     /* position: relative; */
@@ -195,7 +195,7 @@ h3 {
 #stop-anim {
     position: fixed;
     bottom: 1.5%;
-    left: 1%;
+    right: 1%;
     padding: 10px;
     border-style: solid;
     border-radius: 100px;

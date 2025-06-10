@@ -1,10 +1,12 @@
 :root {
-    --nav-color: #181825;
-    /* --nav-color: rgb(40, 44, 56); */
+    --card-color: #181825;
+    --nav-color: #313244;
+    --overview-color: #232634;
+    /* --card-color: rgb(40, 44, 56); */
     --light-text-color: #f5edf0;
     --elem-color: #508484;
     --background-color: #e3cad2;
-    --shadow-color: rgba(255, 255, 255, 0.5);
+    --shadow-color: rgba(180, 180, 180, 0.788);
     --accent-color: #8fafaf;
 }
 
@@ -21,7 +23,7 @@
 
 body {
     margin: 0px;
-    background-color: var(--nav-color);
+    background-color: var(--card-color);
     font-family: poppins;
     color: var(--light-text-color);
 }
@@ -60,11 +62,11 @@ nav {
 
     display: flex;
     gap: 10px;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 nav a:first-of-type {
-    margin-right: auto;
+    margin-right: 10px;
 }
 
 nav a {
@@ -72,7 +74,7 @@ nav a {
 }
 
 footer {
-    background-color: var(--nav-color);
+    background-color: var(--card-color);
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
@@ -95,7 +97,7 @@ footer p {
     border-color: var(--elem-color);
     /* border-style: solid; */
     border-width: 1px;
-    background-color: var(--nav-color);
+    background-color: var(--card-color);
     margin: 0px 5%;
     margin-bottom: 50px;
     padding: 3em;
