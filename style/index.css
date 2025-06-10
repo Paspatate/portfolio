@@ -117,8 +117,8 @@ h3 {
 .projet .square {
     background-color: var(--overview-color);
     padding: 30px;
-    /* overflow: hidden; */
-    /* position: relative; */
+    overflow: hidden; 
+    position: relative;
     border-radius: 10px;
     border-style: solid;
     border-width: 2px;
@@ -129,6 +129,23 @@ h3 {
     flex-grow: 1;
     color: var(--light-text-color);
     text-decoration: none;
+}
+
+.header > img {
+    top: -100px;
+    left: 0px;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.header {
+    position: relative;
+    z-index: 1;
+}
+
+.projet .body {
+    z-index: 3;
 }
 
 /* .square:after {
