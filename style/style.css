@@ -1,6 +1,6 @@
 :root {
     --card-color: #181825;
-    --nav-color: #313244;
+    --nav-color: #181825;
     --overview-color: #232634;
     /* --card-color: rgb(40, 44, 56); */
     --light-text-color: #f5edf0;
@@ -45,7 +45,7 @@ h3 {
 header {
     background-color: var(--nav-color);
     border-radius: 5px;
-    box-shadow: var(--shadow-color) 0px 0px 12px;
+    box-shadow: var(--shadow-color) 0px 0px 1px;
     margin: 5px;
     margin-bottom: 10px;
     height: 50px;
